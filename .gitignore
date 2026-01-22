@@ -6,7 +6,7 @@ ENV/
 
 # 2. Project Source Docs (Excluding the concept and tech plan)
 *.pdf
-image_*.png
+*.png
 
 # 3. Sensitive Data & Credentials
 .env
@@ -20,3 +20,6 @@ __pycache__/
 # 5. OS Specific Files
 .DS_Store
 Thumbs.db
+
+# 6. Generated Reports (Lighthouse 3 Outputs)
+brief_*.md
