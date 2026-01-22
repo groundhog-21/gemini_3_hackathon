@@ -1,0 +1,22 @@
+# 1. Virtual Environments (Local only)
+.venv/
+venv/
+env/
+ENV/
+
+# 2. Project Source Docs (Excluding the concept and tech plan)
+*.pdf
+image_*.png
+
+# 3. Sensitive Data & Credentials
+.env
+secrets.json
+
+# 4. Python Housekeeping
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 5. OS Specific Files
+.DS_Store
+Thumbs.db
