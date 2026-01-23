@@ -3,5 +3,6 @@
 __pycache__/
 .git/
 .vscode/
+docs/
 # The line below is the most important
 !brief_*.md
