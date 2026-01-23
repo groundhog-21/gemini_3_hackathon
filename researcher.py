@@ -47,7 +47,7 @@ def save_report_to_md(result, topic):
     print(f"💾 Saving report to {filename}...")
     
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(f"# 💡 Lighthouse 3: Strategic Briefing\n")
+        f.write(f"# 🚨 Lighthouse 3: Strategic Briefing\n")
         f.write(f"**Research Topic:** {topic}\n")
         f.write(f"**Generated on:** {datetime.now().strftime('%B %d, %Y at %I:%M %p')}\n\n")
         f.write("---\n\n")

@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+.git/
+.vscode/
+# The line below is the most important
+!brief_*.md
