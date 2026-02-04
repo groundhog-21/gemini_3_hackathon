@@ -4,9 +4,8 @@ venv/
 env/
 ENV/
 
-# 2. Project Source Docs (Excluding the concept and tech plan)
-*.pdf
-*.png
+# 2. Project Source Docs (concept, tech plan, diagrams)
+docs/
 
 # 3. Sensitive Data & Credentials
 .env
@@ -23,3 +22,6 @@ Thumbs.db
 
 # 6. Generated Reports (Lighthouse 3 Outputs)
 brief_*.md
+
+# 7. Audio track for YouTube video
+*.mp3
