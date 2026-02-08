@@ -4,5 +4,10 @@ __pycache__/
 .git/
 .vscode/
 docs/
-# The line below is the most important
+
+# Exclude the new folders from the Cloud build
+audio/
+archive/
+
+# Keep only the latest briefings in the root
 !brief_*.md

@@ -20,8 +20,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 6. Generated Reports (Lighthouse 3 Outputs)
-brief_*.md
-
-# 7. Audio track for YouTube video
+# 6. Audio track for YouTube video
+# We ignore the entire folder you created to be safe
+audio/
 *.mp3
+
+# 7. IDE Settings
+.vscode/
